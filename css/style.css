@@ -72,7 +72,9 @@ h1, h2, h3{
     width: 100%;
 }
 .header-content{
-    padding-bottom: 3rem;
+    padding: 1rem;
+    display: flex;
+    align-items: center;
 }
 
 .header-content h3{
@@ -80,8 +82,16 @@ h1, h2, h3{
     font-weight: 300;
     letter-spacing: 4px;
     text-transform: uppercase;
-    margin-top: 3rem;
     font-size: 5rem;
+    margin-left: 3rem;
+}
+
+.header-content > div:first-child div{
+    width: 100px;
+    height: 100px;
+    overflow: hidden;
+    margin: 1rem auto;
+    border-radius: 50%;
 }
 
 .title{
